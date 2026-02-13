@@ -94,6 +94,7 @@ class TestExercises:
             exercises_client: ExercisesClient,
             function_exercise: ExerciseFixture
     ):
+
         delete_response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
 

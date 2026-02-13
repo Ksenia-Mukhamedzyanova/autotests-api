@@ -55,7 +55,7 @@ class ExercisesClient(APIClient):
             json=request.model_dump(by_alias=True)
         )
 
-    @allure.step("Delete exercise by id {id}")
+    @allure.step("Delete exercise by id {exercise_id}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод удаления задания.
