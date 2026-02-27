@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/5586f91c-933f-4b5d-b1a9-3b890f691854
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/5586f91c-933f-4b5d-b1a9-3b890f691854
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:90 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 5586f91c-933f-4b5d-b1a9-3b890f691854
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Rock purpose matter shake manager drug.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to f237aa05-ad87-43e0-af4d-b67544fc3765
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 94
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 12
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Skill around technology rather.
+Concern song staff knowledge ago. Fine our find father individual need team. Let hope church court six.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

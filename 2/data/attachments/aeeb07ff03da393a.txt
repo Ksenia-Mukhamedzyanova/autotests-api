@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE1OjU0OjI2LjA2MDMxNiIsInVzZXJfaWQiOiJmMTBhYzg0ZC0xNzk4LTQ3OTAtYmYyMS1jYmZiN2U1ODBkZmEifQ.z0PhF_kMTBkJ7jwPtA6ZXusnNMVEEQaMSJeUTGbtsz8' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But mission radio.","maxScore":67,"minScore":21,"description":"System section that western. Human PM billion relationship may case.","estimatedTime":"4 weeks","previewFileId":"0998c320-c731-4dc1-875d-6862b0be907d","createdByUserId":"f10ac84d-1798-4790-bf21-cbfb7e580dfa"}'

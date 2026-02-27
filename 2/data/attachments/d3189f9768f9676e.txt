@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE1OjU0OjI4LjQ4MTI3OCIsInVzZXJfaWQiOiJiNTBhMThhNy00OWQ4LTQ1MTYtODFhMS00ZWNmZmVhYjkwNGEifQ.tfG1v3OSMOvDBYS4pen6ihBXTrm2oIlY9602iHIBPl8' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most success play return free.","maxScore":90,"minScore":12,"description":"Degree road could these.\nColor positive edge result state. Watch for room in find.","estimatedTime":"7 weeks","previewFileId":"2a55c5f9-b60c-4581-92eb-19aa49e017aa","createdByUserId":"b50a18a7-49d8-4516-81a1-4ecffeab904a"}'

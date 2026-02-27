@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE1OjU0OjI3LjI2MTM1NSIsInVzZXJfaWQiOiIxYzYyZTM3Yy0wYTk5LTQwNDEtOTMzNy1iODY3ZDdlYjAyNmUifQ.uRNT72SeA98IjEghUoM2i9rVmtPmunutOgWl72hupD0' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure prepare along.","maxScore":62,"minScore":27,"description":"Contain everybody west.\nSide somebody rich dog. Can property soon artist number point behavior.\nRock stock consumer pattern should two. Address happen good character question decision beat.","estimatedTime":"4 weeks","previewFileId":"ab9f7328-872e-44ea-b058-458e73222dbf","createdByUserId":"1c62e37c-0a99-4041-9337-b867d7eb026e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE1OjU0OjI4LjQ4MTI3OCIsInVzZXJfaWQiOiJiNTBhMThhNy00OWQ4LTQ1MTYtODFhMS00ZWNmZmVhYjkwNGEifQ.tfG1v3OSMOvDBYS4pen6ihBXTrm2oIlY9602iHIBPl8' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guess lawyer style candidate make keep player notice.","courseId":"0f946d7e-e4ba-4977-b955-54b12a1ceeb4","maxScore":57,"minScore":6,"orderIndex":88,"description":"Wife capital personal write accept discussion series. Other purpose own too result performance some firm. Goal high join use.","estimatedTime":"7 weeks"}'

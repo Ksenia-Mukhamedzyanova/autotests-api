@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE1OjU0OjI2Ljk4Njk2MiIsInVzZXJfaWQiOiI1MGU5MzA1MC01OTI0LTRlYzctYjdiNy1lZDU1Mzc3ZGQ2ODAifQ.AUDnpQLY_zWesyfZmlpPqAtpqpkdc5u2v9PJe6J4gq8' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect evening detail over.","maxScore":58,"minScore":26,"description":"Or various week growth stock rather image. Leave chance leader class.\nHotel now and recently second. Federal them card series law follow.","estimatedTime":"4 weeks","previewFileId":"6306b8a2-56a8-4be8-a1c0-f946c22d371c","createdByUserId":"50e93050-5924-4ec7-b7b7-ed55377dd680"}'
