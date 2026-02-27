@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjQ5LjA5MDUzMSIsInVzZXJfaWQiOiJkYWI5MzY0Yy0yOTc0LTQ1ZGItOWU1Ny1jYzc2MDc4NWQwNTMifQ.i2M1W10WMBftg3Gq6LoQ6FEzGlSA3mBSorJanEzsOpQ' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue physical type girl meet red thank.","maxScore":75,"minScore":25,"description":"Late meeting meet quickly. Avoid decide thank beyond military than evening they. For far skill difference.","estimatedTime":"4 weeks","previewFileId":"ae10c5a1-3ed6-4911-9bc7-f04c90836d9b","createdByUserId":"dab9364c-2974-45db-9e57-cc760785d053"}'

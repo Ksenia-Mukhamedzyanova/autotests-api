@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUwLjU2NjcyMSIsInVzZXJfaWQiOiJjZDRhMDkwMC0xY2Y0LTQ1N2MtYTQ0MS1hMjQxNmM3NGE2NjgifQ.8Gq9lp1mEZFdKGZw1xdrzidOyyJTlwhKwXOz-ppuhk8' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity high idea worry center line author.","maxScore":62,"minScore":4,"description":"Choice bill rather different anything themselves hit. Space free mention offer risk. End detail same direction pull else describe. Represent interesting always resource.","estimatedTime":"1 weeks","previewFileId":"db02d5d5-9adb-4aa5-a518-295619a71cf8","createdByUserId":"cd4a0900-1cf4-457c-a441-a2416c74a668"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUxLjc5MzM5OSIsInVzZXJfaWQiOiI1MGZjNmQ2Zi1lODQ2LTRiMjMtOTM2Yy1jNmE5NWRhYTA5NGYifQ.aTImrJEEYlj4ay9ZzJ_9d0dj1t2HsNDEhXgD_ZESRJA' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light hospital buy usually could career.","maxScore":85,"minScore":12,"description":"Candidate sing in generation. Attorney city letter three. After oil list statement economy.\nClear lawyer cut member. Decade not economy south total. Board no or into forward science.","estimatedTime":"7 weeks","previewFileId":"aff79e40-954f-4bd4-bbd6-30eedfa83fe0","createdByUserId":"50fc6d6f-e846-4b23-936c-c6a95daa094f"}'

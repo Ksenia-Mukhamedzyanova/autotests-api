@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjQ4LjE2NzcwOCIsInVzZXJfaWQiOiIzNGFlZjU1Mi0yYTRjLTQzNDQtOThkMC1iNTczZjg0MTVjYTUifQ.kpbaq2cVPMMwD576JELzxaNNpFN71ZGx7GUboo5a2no' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband book practice often time.","maxScore":63,"minScore":19,"description":"Idea your herself daughter. Management too since between least. Forget customer involve.","estimatedTime":"10 weeks","previewFileId":"7e189a96-c393-4ae2-9491-994557ff6667","createdByUserId":"34aef552-2a4c-4344-98d0-b573f8415ca5"}'

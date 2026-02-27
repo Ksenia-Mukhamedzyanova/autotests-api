@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUwLjI5MzQzNyIsInVzZXJfaWQiOiIyZWJjYzg5Mi0wMDEwLTQ3YmItODFmMC02NmUzNjJhMzI1MGYifQ.574ffPzfK8Ddp3YbMdrT2BDTIoAR3B_QiruoYkIrmX4' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scientist spend travel pull because believe receive.","maxScore":54,"minScore":26,"description":"Others history front fear idea.\nInformation realize stop difficult whose sea. Like recently garden make Congress. Behavior late either although good.","estimatedTime":"9 weeks","previewFileId":"8868ffd3-6f15-416e-af29-21637755f1d4","createdByUserId":"2ebcc892-0010-47bb-81f0-66e362a3250f"}'

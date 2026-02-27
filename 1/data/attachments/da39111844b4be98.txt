@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUwLjU2NjcyMSIsInVzZXJfaWQiOiJjZDRhMDkwMC0xY2Y0LTQ1N2MtYTQ0MS1hMjQxNmM3NGE2NjgifQ.8Gq9lp1mEZFdKGZw1xdrzidOyyJTlwhKwXOz-ppuhk8' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section education performance peace other.","courseId":"0c1bf5e9-e6e7-49ba-b336-52879daf0864","maxScore":99,"minScore":6,"orderIndex":99,"description":"Least guess step top. Finish major issue score. Key role project political.\nUntil growth bit real. Able star administration black agreement himself treatment.","estimatedTime":"5 weeks"}'

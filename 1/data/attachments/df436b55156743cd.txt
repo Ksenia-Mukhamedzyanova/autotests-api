@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUxLjUyMDUxOSIsInVzZXJfaWQiOiJmZDFiMWI0Zi02ZmIyLTQwZDMtOGQ3Zi1iYzU3YzY3ZTc4OTUifQ.zka_WpClJwggXrbIbxe-xhkDn5QFoh9OWiUsc0tcsU8' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article movie let major.","courseId":"320e3847-530a-40e9-a3f8-08e399d91599","maxScore":89,"minScore":8,"orderIndex":53,"description":"Person seek doctor trouble government. Here election first rather each blood personal. Happen face lose they hard address. Whether Mrs phone join accept way.","estimatedTime":"9 weeks"}'

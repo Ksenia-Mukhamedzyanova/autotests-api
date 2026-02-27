@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjQ5LjM2Mzk1MiIsInVzZXJfaWQiOiIwNmI3MTZjYi1mNTRiLTQyODYtODk1OC1mZTkxZWVhZDM0MGMifQ.36AX9YZ7qg5-3MdfhEI_0ug9WcGqYN6B78FXuU4gpxM' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lawyer hospital garden major beyond dark international.","maxScore":58,"minScore":30,"description":"Include traditional add base next clearly. Seat important laugh pretty recognize ready. Another house able paper bad.","estimatedTime":"8 weeks","previewFileId":"536fd8f0-6568-47bb-b22e-4bb66de7d64a","createdByUserId":"06b716cb-f54b-4286-8958-fe91eead340c"}'

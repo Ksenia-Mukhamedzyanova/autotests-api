@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUxLjUyMDUxOSIsInVzZXJfaWQiOiJmZDFiMWI0Zi02ZmIyLTQwZDMtOGQ3Zi1iYzU3YzY3ZTc4OTUifQ.zka_WpClJwggXrbIbxe-xhkDn5QFoh9OWiUsc0tcsU8' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag hand stage like.","maxScore":78,"minScore":4,"description":"Wish large employee. Still become hand personal. Line key common personal article energy.\nTwo seat movement little. Deep evening sometimes along measure office building.","estimatedTime":"2 weeks","previewFileId":"6bd1c8b8-3bea-4998-b37e-5d9e749e5820","createdByUserId":"fd1b1b4f-6fb2-40d3-8d7f-bc57c67e7895"}'

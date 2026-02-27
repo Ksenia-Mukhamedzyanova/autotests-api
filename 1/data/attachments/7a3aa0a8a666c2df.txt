@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/15f30198-68fc-4b23-a478-c4d17622288e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUwLjI5MzQzNyIsInVzZXJfaWQiOiIyZWJjYzg5Mi0wMDEwLTQ3YmItODFmMC02NmUzNjJhMzI1MGYifQ.574ffPzfK8Ddp3YbMdrT2BDTIoAR3B_QiruoYkIrmX4' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Important religious eat.","maxScore":81,"minScore":27,"orderIndex":83,"description":"Statement bill here kitchen ground. Them popular remain age draw couple. See quite back practice each total natural agency.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6e61b096-53ee-439a-840e-2eae7ca847bc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjQ3LjI2NTUxNyIsInVzZXJfaWQiOiJkMDU3NThlOS0yMDExLTQ3YTctYmQzYS01YzkyOWI0ZGQ4YTMifQ.F5vSJUOCj0Tn3mEtqcUX6YybqeVMgbkP59RH1XDDPlQ' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break view late fight town.","maxScore":67,"minScore":15,"description":"Idea point space Mrs wide black morning. Ever data inside spring threat design drug. Garden above sometimes quality next site occur. Deal scene society return agree participant.","estimatedTime":"4 weeks"}'

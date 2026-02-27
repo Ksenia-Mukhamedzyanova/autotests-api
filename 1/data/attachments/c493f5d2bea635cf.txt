@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI3VDE0OjU2OjUxLjc5MzM5OSIsInVzZXJfaWQiOiI1MGZjNmQ2Zi1lODQ2LTRiMjMtOTM2Yy1jNmE5NWRhYTA5NGYifQ.aTImrJEEYlj4ay9ZzJ_9d0dj1t2HsNDEhXgD_ZESRJA' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea beat certain none final step.","courseId":"1b18ac4f-8fbb-4d66-a87c-5f4610f7170d","maxScore":95,"minScore":29,"orderIndex":52,"description":"Hope director business decade window against. Behind feeling medical.","estimatedTime":"6 weeks"}'
