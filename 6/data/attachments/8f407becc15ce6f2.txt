@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjIzLjI3MTMzNCIsInVzZXJfaWQiOiIxZWM0ZjUyNC1jNmIxLTRjN2MtYjFmYS02N2RlOTUwN2FjNmQifQ.EZsmkIsttEz5kqMcWnBq0jvDt0ikfeaP2arMKJH0GQw' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already statement along per large notice.","maxScore":67,"minScore":14,"description":"That charge matter adult operation. Visit live final want. Lose ok prove rock them control. Message stand for agreement cultural serious action.","estimatedTime":"6 weeks","previewFileId":"5ba67681-0ce4-4c32-a5e3-cfedbda9c3f1","createdByUserId":"1ec4f524-c6b1-4c7c-b1fa-67de9507ac6d"}'

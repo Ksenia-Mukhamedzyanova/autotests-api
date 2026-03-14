@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/10f2756a-f82c-43d6-bbe6-eefe25a3550a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjIzLjI3MTMzNCIsInVzZXJfaWQiOiIxZWM0ZjUyNC1jNmIxLTRjN2MtYjFmYS02N2RlOTUwN2FjNmQifQ.EZsmkIsttEz5kqMcWnBq0jvDt0ikfeaP2arMKJH0GQw' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suffer already care she sit decide trip hotel.","maxScore":77,"minScore":16,"orderIndex":70,"description":"Business foot real paper. Finally mouth I senior way others. Catch upon hard word.\nReturn machine water girl glass brother.","estimatedTime":"3 weeks"}'

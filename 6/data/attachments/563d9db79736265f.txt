@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2ad64e92-ea7c-48cc-971b-623cbd98e20b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjIwLjgyMjgwOCIsInVzZXJfaWQiOiI2MjFmN2JjMy02YTgxLTRkNDItOGQ4Ny0xZjVhYzMxOGVjNDgifQ.drUn4X6SFkqflECTEYVVq5OVxUaVCv1aCw8m_mJLZVc' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Computer break issue.","maxScore":67,"minScore":17,"description":"Medical draw focus couple. Positive answer condition with culture a able. Letter hand deal present you goal sometimes kitchen. Current support stand tough contain wide.","estimatedTime":"2 weeks"}'

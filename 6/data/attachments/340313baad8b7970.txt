@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjIzLjkyMzMxOCIsInVzZXJfaWQiOiJlM2VjNTMxNi1kYzlhLTQ1YzUtOGFjNS0wMTQ4NTNkMzNjYWQifQ.V6Hv1UsrKzihT6HOcN2obpmuGp53fxPRcpedVB0mOcQ' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Knowledge green they production fish far piece.","maxScore":70,"minScore":5,"description":"Star fact keep drive trouble. Suggest mean could begin gas.\nInterest material performance head price word. Middle apply his half represent management foot. Eight green cold.","estimatedTime":"1 weeks","previewFileId":"47a2dc02-135e-4f67-bcf3-2372bfe33d33","createdByUserId":"e3ec5316-dc9a-45c5-8ac5-014853d33cad"}'

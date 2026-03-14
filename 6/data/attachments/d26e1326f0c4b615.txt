@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjI0LjU1Mzk0NiIsInVzZXJfaWQiOiJkZjE5YmY3My00MTk1LTRmMzEtOWRmOS0yMjUyNWY5NDhmOGEifQ.zCEvaQTKmyHg6Wp1MVT_kgr3jmXEdlP5blh3jb-2or4' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview draw listen action.","courseId":"e448bdbf-384f-4fc9-91ae-c203ce2798f6","maxScore":93,"minScore":9,"orderIndex":70,"description":"Western million sport reflect blue particular. Stock anyone health.\nPower theory last save hair between. Then financial be third property million investment.","estimatedTime":"4 weeks"}'

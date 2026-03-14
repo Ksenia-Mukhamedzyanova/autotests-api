@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjM5OjIyLjA5MTg0MiIsInVzZXJfaWQiOiI5YjQ5ZmYxOC1iY2EzLTRkN2YtOTMxZS00ZDIwNTk1ZDdjNzcifQ.SVT2ClS1AOkUMjMHHFjiv9q0ql3-FKBizM5MhxLP74I' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk well world walk whom poor yeah.","maxScore":91,"minScore":16,"description":"Her help they hold this join everything. Analysis information usually discuss course treatment feel along. However four those build catch.","estimatedTime":"9 weeks","previewFileId":"a09943c2-d419-46f4-a9f8-310de3bec11f","createdByUserId":"9b49ff18-bca3-4d7f-931e-4d20595d7c77"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/63e293f4-a5b9-4c8e-b886-37ec9fa2202c
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/63e293f4-a5b9-4c8e-b886-37ec9fa2202c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:90 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 63e293f4-a5b9-4c8e-b886-37ec9fa2202c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Air book stay never industry.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to acfcd929-bfc6-429b-bd4f-627dd158d3af
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 85
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Recent foreign write law door.
+Purpose bit sea despite now improve detail she. Side development point morning throughout heavy brother.
+Prepare save watch throw.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
