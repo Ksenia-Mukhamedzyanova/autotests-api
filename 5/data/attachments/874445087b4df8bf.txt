@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjI0OjA5LjYwMzc5OSIsInVzZXJfaWQiOiIzZGY4NmY4Ni03ZDY1LTQ1NTMtOWUzZC1hMjQ4NDYwMGM2MGIifQ.Ejwr78wPMmiJao0yXl9ZrFE8_veIMk_3pnydT76CyRE' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later she here factor customer edge continue.","maxScore":93,"minScore":21,"description":"Foot Mrs man gas. Table all three trial affect seven foot perhaps. Result true article draw company.","estimatedTime":"2 weeks","previewFileId":"934b9777-325c-4a02-b607-81fb9cf4c661","createdByUserId":"3df86f86-7d65-4553-9e3d-a2484600c60b"}'

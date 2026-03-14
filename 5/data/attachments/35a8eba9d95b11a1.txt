@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjI0OjA3LjIxMTE0NCIsInVzZXJfaWQiOiJkMzA3YzhhNC03YTU3LTRjN2EtODU1Ni04NDAwOWU0ZDc3N2IifQ.xF-ZNPjoFFPeE_rXdnulpjC9WTi048FRuROBROZyUOo' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality rich local provide.","maxScore":58,"minScore":19,"description":"Probably line until now night remain much. Understand him claim lay cultural sing much season.","estimatedTime":"8 weeks","previewFileId":"1c72651e-d73c-4e8e-82ba-338ea94542eb","createdByUserId":"d307c8a4-7a57-4c7a-8556-84009e4d777b"}'

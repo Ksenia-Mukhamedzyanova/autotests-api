@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjI0OjA4LjY5NTc2NiIsInVzZXJfaWQiOiIzMDczYmU2My0zZmI5LTQ5OTktYWNlYi00NTBhNTEzOTFiMTEifQ.R0KIcQK5yR0p5AXuJlEgDOKjvE6A2NaOtDoo6HNhee4' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition stand law who.","maxScore":66,"minScore":23,"description":"First star put. Material top company also whose high. Wall record save way unit letter.\nScientist should visit attack car. Score development material rock. Task charge item may western recent stuff.","estimatedTime":"6 weeks","previewFileId":"5852e8bb-c92c-4571-ab32-ca590f1d1450","createdByUserId":"3073be63-3fb9-4999-aceb-450a51391b11"}'

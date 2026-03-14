@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjI0OjExLjA5MTUzOCIsInVzZXJfaWQiOiJlZjZjMWY0Zi01NTA3LTQ5YmEtODY0NC1hNGQwZWI4NTIzMmYifQ.ZBiOKfmXwQRyCZrSII-XMa0SrEH8qQrI5gJqyluHMYc' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand food against themselves.","maxScore":82,"minScore":11,"description":"I experience kind really quickly actually positive. Accept project agreement small.\nSong despite American think song someone economic real. Research indeed left remain fear rock hour sit.","estimatedTime":"7 weeks","previewFileId":"2abd81d9-864c-424d-bfb0-901f5e5368a8","createdByUserId":"ef6c1f4f-5507-49ba-8644-a4d0eb85232f"}'

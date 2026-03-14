@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjI0OjA5Ljg3NzQ1OCIsInVzZXJfaWQiOiI3MTAxZDM1Mi03NzAzLTRjMGQtYjZlMi1mNzZmOGQzODBkMjUifQ.qy056pMXP8mP_yJ8Irmojscu2M8fXpOdw485GiBP_8A' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound case stop they strong we scene job.","maxScore":76,"minScore":3,"description":"Agree case voice not month citizen. Idea road ready material one whom consumer. Bad traditional song yourself face show country.","estimatedTime":"6 weeks","previewFileId":"2bbd9393-4520-4a12-9c1f-21c5463dbdb1","createdByUserId":"7101d352-7703-4c0d-b6e2-f76f8d380d25"}'
