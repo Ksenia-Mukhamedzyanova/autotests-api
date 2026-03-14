@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjQ5LjA3ODc2MCIsInVzZXJfaWQiOiJlNDc4NDZlNC1kYzM0LTQ1MGQtOWFkNy1lNjFhZmJmNTI0MWIifQ.Vcy1ffRfIodu76YgHizNR5dJfzdW-_VVFU02a5-4Bcg' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water front exactly could success read ready.","maxScore":61,"minScore":1,"description":"Vote bank any fish force window focus hard. Grow box fear four pattern. I bar seat.\nEat country account yard before. Republican argue blue country agreement star. Ok weight movie.","estimatedTime":"6 weeks","previewFileId":"68d2cb41-a592-439c-8b84-52e96c0c4b3c","createdByUserId":"e47846e4-dc34-450d-9ad7-e61afbf5241b"}'

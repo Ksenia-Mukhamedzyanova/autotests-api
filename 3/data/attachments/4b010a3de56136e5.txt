@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjQ5LjczNDQzMiIsInVzZXJfaWQiOiIxZjIxYmJkZC1iZmZjLTQwZWEtOGM1NC1mNjY0ZjUwZjU0MmEifQ.rvGbddq2C--9adStuV4Ek7soxEmEmbmCnLaqTr146R0' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attention tend seem down part maintain.","maxScore":69,"minScore":28,"description":"Blood none place language. Decision simply under move. Thousand thus scene only option always beyond keep.\nDay especially customer enter three positive little. Energy will win then once by.","estimatedTime":"6 weeks","previewFileId":"af1b8502-e771-4e97-a06a-846ec36452da","createdByUserId":"1f21bbdd-bffc-40ea-8c54-f664f50f542a"}'

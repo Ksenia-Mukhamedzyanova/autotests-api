@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjQ4LjM0OTMwMyIsInVzZXJfaWQiOiI3ZjIzMDM5Ni1hZGI3LTQzNGItYWVmYy0zNjBkMTAxODQ0YjMifQ.63Y1nZ9sIRS1gOfFQxdGvhCJzj8dcM8mHkd0d_vd_n0' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Animal feel area table nearly put data usually.","maxScore":88,"minScore":10,"description":"Commercial newspaper check seat result accept week. Accept method memory as he color hope.\nReally international type through letter. Place several likely network. Enter may yeah throw and open.","estimatedTime":"3 weeks","previewFileId":"bf2132ec-5c1f-4f9e-9bc2-2f37e0eef525","createdByUserId":"7f230396-adb7-434b-aefc-360d101844b3"}'

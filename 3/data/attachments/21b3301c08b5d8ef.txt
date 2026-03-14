@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjUwLjM4NDM2OCIsInVzZXJfaWQiOiI3NDNlMGE3Ny1mMWZhLTQwMmEtOTNiMi1kMzNmMWFjOGE5Y2EifQ.V7Yf-aV4N23IdXoPF3RSh4KQANr1HYLpr50Cy1fF7Ww' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design join him.","maxScore":84,"minScore":22,"description":"History century him recently such good condition. Peace or sister go near yet thus now.","estimatedTime":"9 weeks","previewFileId":"9d1138d4-3c97-4be6-8173-36685a5bf8d5","createdByUserId":"743e0a77-f1fa-402a-93b2-d33f1ac8a9ca"}'

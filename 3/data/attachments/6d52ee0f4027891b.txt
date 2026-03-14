@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjUyLjUzNDMzNSIsInVzZXJfaWQiOiI5NzcxMmVlNS04NDBjLTRkYzctOWIzYi1iMzRhMTQzYzFkZDcifQ.OVXXjnUGOhigpMItmwCqVZZTNcw5qLmT7ngVYsPVdsw' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself season special course.","maxScore":78,"minScore":2,"description":"Exactly fear explain. Operation discussion government notice myself then.\nMedical them poor would. Land within letter keep.\nMagazine meet amount people your one. Boy interest manager protect.","estimatedTime":"10 weeks","previewFileId":"3ee52199-ed69-4d33-9c58-2bdc2ced17b2","createdByUserId":"97712ee5-840c-4dc7-9b3b-b34a143c1dd7"}'

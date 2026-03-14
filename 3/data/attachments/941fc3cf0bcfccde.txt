@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjUxLjc5ODA3MyIsInVzZXJfaWQiOiJhYjA4YzZkMS0yZDNlLTRlZTMtYTc4Yy00NTk0ZjhmMTNhMDcifQ.9q3i2CQepRs_g4mRSiqhIz3ermTDzYw2l07JpD9nyCs' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During quickly read.","maxScore":97,"minScore":5,"description":"Cup pick rock to. Contain economic rock public push front.\nOnce catch new security. Page receive expect take certainly short family.\nWhy still treat plan world. Second condition third.","estimatedTime":"3 weeks","previewFileId":"a52d78cf-0438-4a02-944c-240865fea6ad","createdByUserId":"ab08c6d1-2d3e-4ee3-a78c-4594f8f13a07"}'

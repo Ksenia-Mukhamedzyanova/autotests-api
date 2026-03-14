@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjE2OjUxLjExOTY4MyIsInVzZXJfaWQiOiJmNmY0NWQzMi05MjI0LTRjOTgtYmI4NC04ZjZkYjkxNmQ4ODMifQ.8_Kr9U3kA2h8so8uEj3qW6pfCIUbLv7umZdv2_Wcb4E' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business family hand minute.","maxScore":77,"minScore":19,"description":"Capital face building course meeting. Especially front specific center single. Full develop leg free. Young foot knowledge name less.\nAll charge leader those might. Success his bring majority pretty.","estimatedTime":"7 weeks","previewFileId":"b5f93325-3217-4d5d-b585-078108304b91","createdByUserId":"f6f45d32-9224-4c98-bb84-8f6db916d883"}'
