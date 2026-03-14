@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjIzOjA5LjIxNjE2MyIsInVzZXJfaWQiOiI1Y2ExNTRkYi00ZDMyLTQ1MzktODlkOS0yM2Y1MzM0YzJiNzkifQ.HTvSEjxePXJcdeXBSgLxq6oqGaiQEg_zNJVRIR4eRsM' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Program skill arm southern item nothing town guess.","maxScore":73,"minScore":30,"description":"Film black able example. Our goal ask area cause money attack today.\nAcross kid newspaper ask own certain. Move hold according between. Care better section Congress.","estimatedTime":"10 weeks","previewFileId":"bd3e4a7a-29d5-4123-93d3-dd2eee4e5544","createdByUserId":"5ca154db-4d32-4539-89d9-23f5334c2b79"}'

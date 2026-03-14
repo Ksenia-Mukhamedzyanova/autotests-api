@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjIzOjEyLjIwNTY1OCIsInVzZXJfaWQiOiJmOTQwNmNlYi1mNDI3LTQxNzMtODdkNS1mOGNmZGI2YjMzNjgifQ.QswO48HSv89je2x5jbRuNNplQ4wuZ3dYh4o7DYF2Bx8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"City star according decide environmental east what.","maxScore":80,"minScore":25,"description":"Unit or hope behavior husband. Other beyond today deep fund rock specific rock.","estimatedTime":"1 weeks","previewFileId":"8bacf558-4ac2-4563-9fcf-4b0b77567a81","createdByUserId":"f9406ceb-f427-4173-87d5-f8cfdb6b3368"}'

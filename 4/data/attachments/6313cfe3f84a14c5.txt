@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjIzOjEzLjE5NzIzOCIsInVzZXJfaWQiOiJmNTA4YzBjMi0wMmE4LTQ3NzYtYjQ1OS04Zjc0NmNlOGRkYTAifQ.pauCvuwkBKe-6AaWlzm19y7YZMP1dYixlrKI5-B8bDE' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly meeting technology mother.","maxScore":69,"minScore":11,"description":"Rise item nation stand her federal from. Later someone wind wife view two rest.\nThey win cost itself anything thus idea. Find defense result fish common most.","estimatedTime":"6 weeks","previewFileId":"4d103441-a7fa-475b-a69b-b33b3509b126","createdByUserId":"f508c0c2-02a8-4776-b459-8f746ce8dda0"}'

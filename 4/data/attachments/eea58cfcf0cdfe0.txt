@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b480ea25-f73e-4995-9320-d8b6b08adb81' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjIzOjA4LjMyMTE2MyIsInVzZXJfaWQiOiJkMTkxZGRkNy0wNzI3LTRkMzgtYmQ0Yi0yZjNlNGUyYTdhYmUifQ.TW1w9zN12X_VT2nb8b8lNh20E7GRuc6nK3UqQ8kunus' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night for wrong environmental direction at.","maxScore":86,"minScore":15,"description":"A thousand him save. Listen east ever pass year bag hit.\nWrite team boy dog avoid at you. Apply smile beat there owner. Truth involve student himself.","estimatedTime":"6 weeks"}'

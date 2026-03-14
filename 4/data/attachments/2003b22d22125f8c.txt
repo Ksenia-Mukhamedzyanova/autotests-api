@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjIzOjEwLjcxMTA0NiIsInVzZXJfaWQiOiIzZWYxMzZhYi0wOGU3LTQ5M2ItODJmMi0wMTcxOTNiMGM4OTMifQ.8gvyx-urBSAMFnnF3madn1_2DHJ0bR3g5XIVOyhoqBI' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size hard many moment foreign.","maxScore":98,"minScore":1,"description":"Could owner place choice special condition authority democratic. Eat out cut hospital point pay computer.","estimatedTime":"9 weeks","previewFileId":"e62ab30c-5c21-48ef-8613-aefc81109605","createdByUserId":"3ef136ab-08e7-493b-82f2-017193b0c893"}'
