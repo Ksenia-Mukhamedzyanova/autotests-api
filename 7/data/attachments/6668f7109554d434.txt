@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ4LjY5ODA2MSIsInVzZXJfaWQiOiI1MjQzNDk0NC0xMjBjLTRkMTYtODczZS00MGM2NGI4MTJhYWYifQ.Fn3PhI3X_czm4Lp5BIe7Xbo6KwzezDq2dmh5VUSmw8M' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also woman magazine show.","maxScore":55,"minScore":17,"description":"Prove ready enter nation. Approach owner writer. Interview side individual cost light from.\nHow physical positive ever minute more should. Road media conference form. Full everything land.","estimatedTime":"3 weeks","previewFileId":"3c67a16f-57fa-4c29-be2b-1f4149492206","createdByUserId":"52434944-120c-4d16-873e-40c64b812aaf"}'

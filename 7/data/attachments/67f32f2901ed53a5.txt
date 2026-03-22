@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ3LjUwMjg0MSIsInVzZXJfaWQiOiI3NWY5YzJmMC1kMzBlLTQwMGYtYmYyMC0zMTFjZDdjMGY4NzUifQ.uI0pKIvp4WDTvolIHzjJRw8-p5SGG_JTyTljFt3XUqc' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive computer physical adult.","maxScore":81,"minScore":2,"description":"Walk of step meet. When prepare indicate in. Remain news relationship around simply company theory. Loss explain might student impact difficult couple note.","estimatedTime":"7 weeks","previewFileId":"b36dd0d2-454c-4dae-b48c-2e92f475f829","createdByUserId":"75f9c2f0-d30e-400f-bf20-311cd7c0f875"}'

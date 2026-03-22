@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ5LjkxNDQ3MCIsInVzZXJfaWQiOiI4YjdhZjhkYy1iOWQwLTQ3NDUtOTQ1Mi05YTZkM2ViOTQ3NjAifQ.PZQRp2TtGj4rNNWgb06uImWJIct46DsaBxxWjpZRrqk' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Commercial various those.","maxScore":69,"minScore":2,"description":"Movie wear everyone. Notice save civil defense form example. Prove feeling special finish.\nTv west call simple risk film red. Meeting home writer away others all.","estimatedTime":"9 weeks","previewFileId":"c98cc1ec-6832-438c-83bd-c2b5412f110a","createdByUserId":"8b7af8dc-b9d0-4745-9452-9a6d3eb94760"}'

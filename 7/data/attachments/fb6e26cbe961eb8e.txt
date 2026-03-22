@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ4LjQyNDgyMyIsInVzZXJfaWQiOiJlZjNkZDdiMC0wMzllLTQ5OTktOTExZS04NGQ1NDVjM2M2MjQifQ.AsdQRitUazRqyqe4w9wEELFR32p8lbGC0wgATM_iFsg' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method none matter trade company.","maxScore":65,"minScore":4,"description":"Road serve region. Realize growth something meeting according event. Suddenly impact state return difficult common culture nation.\nPart environmental party same. Enough form various.","estimatedTime":"4 weeks","previewFileId":"86f25d60-87dd-4969-908d-921660015afd","createdByUserId":"ef3dd7b0-039e-4999-911e-84d545c3c624"}'

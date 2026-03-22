@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ2LjkxNDY0MiIsInVzZXJfaWQiOiJmODUzYzY2OS03NWZlLTRiMDItODFmOC05MTFhMDBhNjlhNGEifQ.ovEUV0VLNpPDO-pIngvLoDmAt_oYQOoBGOE9d7S1IbI' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement will picture now.","maxScore":95,"minScore":1,"description":"Understand enough which reality. Create along though investment south detail address.","estimatedTime":"7 weeks","previewFileId":"3906cb08-06d0-46ef-8e8d-f437eb957e98","createdByUserId":"f853c669-75fe-4b02-81f8-911a00a69a4a"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=ca0af8a0-ba68-4da0-8843-3b56ccb2dd00
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=ca0af8a0-ba68-4da0-8843-3b56ccb2dd00
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:107 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to fce81989-5622-4e07-ac77-c121b962622b
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Herself fish garden off grow.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to ca0af8a0-ba68-4da0-8843-3b56ccb2dd00
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 94
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 27
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Page mention put wear give glass. Yeah party determine energy finally.
+Body yes cell close few. Sound family democratic production mention.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/eddd43b5-d8d7-465b-a2f2-bd1658d9a9b2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ2LjkxNDY0MiIsInVzZXJfaWQiOiJmODUzYzY2OS03NWZlLTRiMDItODFmOC05MTFhMDBhNjlhNGEifQ.ovEUV0VLNpPDO-pIngvLoDmAt_oYQOoBGOE9d7S1IbI' \
+  -H 'content-length: 183' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship happy officer wrong focus six.","maxScore":69,"minScore":11,"description":"Red watch miss base my build. Happen although sister ten.","estimatedTime":"2 weeks"}'

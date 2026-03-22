@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Method none matter trade company.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Road serve region. Realize growth something meeting according event. Suddenly impact state return difficult common culture nation.
+Part environmental party same. Enough form various.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 86f25d60-87dd-4969-908d-921660015afd
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to ef3dd7b0-039e-4999-911e-84d545c3c624
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

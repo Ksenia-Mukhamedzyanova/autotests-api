@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIyVDE1OjEzOjQ4LjY5ODA2MSIsInVzZXJfaWQiOiI1MjQzNDk0NC0xMjBjLTRkMTYtODczZS00MGM2NGI4MTJhYWYifQ.Fn3PhI3X_czm4Lp5BIe7Xbo6KwzezDq2dmh5VUSmw8M' \
+  -H 'content-length: 239' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious trouble former.","courseId":"e90ab9ee-da2e-4725-9fcf-a1466c601fed","maxScore":82,"minScore":11,"orderIndex":80,"description":"Data key Mr bring. View machine left increase responsibility trade.","estimatedTime":"6 weeks"}'
